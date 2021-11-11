@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: .2s linear;
+    text-transform: capitalize;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+.Rectangle_1 {
+    position: fixed;
+    z-index: 2;
+    height: 10%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#Events {
+    left: 152px;
+    top: 20px;
+    position: absolute;
+    width: 81px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+
+#NS {
+    left: 34px;
+    top: 17px;
+    position: absolute;
+    width: 67px;
+    text-align: left;
+    font-family: Georgia;
+    font-size: 30px;
+    color: rgba(255, 229, 0, 1);
+}
+
+#Engagement {
+    left: 359px;
+    top: 20px;
+    position: absolute;
+    width: 143px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+
+#Instagram {
+    left: 242px;
+    top: 20px;
+    position: absolute;
+    width: 118px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+
+#DSC_8768 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    left: 0px;
+    top: 0px;
+}
+
+#Venue {
+    left: 1334px;
+    top: 20px;
+    position: absolute;
+    width: 100px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        overflow-x: hidden;
+    }
+    #Events {
+        left: 102px;
+        top: 30px;
+        width: 81px;
+        font-size: 12px;
+    }
+    #NS {
+        left: 34px;
+        top: 17px;
+        width: 67px;
+        font-size: 30px;
+    }
+    #Engagement {
+        left: 219px;
+        top: 30px;
+        width: 143px;
+        font-size: 12px;
+    }
+    #Instagram {
+        left: 152px;
+        top: 30px;
+        width: 118px;
+        font-size: 12px;
+    }
+    #Venue {
+        left: 75%;
+        top: 20px;
+        width: 100px;
+        font-size: 12px;
+    }
+    .imagebox {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 80%;
+        height: 200px;
+        left: 50%;
+        transform: translate(-50%, -0%);
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+
+section {
+    padding: 3rem 9%;
+}
+
+.heading {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 4rem;
+    color: #000;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.map {
+    width: 100%
+}
+
+.imagebox {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    height: 600px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.imagebox img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+}
+
+.Events-Decor .row {
+    display: flex;
+}
+
+.Events-Decor .row .divider {
+    padding: 0 1rem;
+}
+
+.Events-Decor .row .box-container .box img {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    border: 2rem solid #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .9);
+}
+
+.Events-Decor .row .box-container .box .info {
+    padding: 2rem 0;
+}
+
+.Events-Decor .row .box-container .box .info h3 {
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.Events-Decor .row .box-container .box .info p {
+    font-size: 1.7rem;
+    color: #aaa;
+    padding: 1rem 0;
+    font-style: italic;
+}
+
+.Events-Decor .row .box-container .box .info p i {
+    color: var(--pink);
+    padding: 0 .5rem;
+}
+
+.Instagram-Decor .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Instagram-Decor .box-container .box {
+    margin: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .9);
+    background: #fff url(../DSC_8768.png) no-repeat;
+    padding: 4.7rem 2rem;
+    text-align: center;
+    background-size: cover;
+    flex: 1 1 33rem;
+}
+
+.Instagram-Decor .box-container .box img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 15rem;
+    width: 15rem;
+    padding: 1rem;
+}
+
+.Instagram-Decor .box-container .box h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.Instagram-Decor .box-container .box span {
+    font-size: 2rem;
+    color: var(--pink);
+}
+
+.Instagram-Decor .box-container .box p {
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1rem 0;
+}
+
+
+/* media queries  */
+
+@media (max-width:1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width:991px) {
+    header {
+        padding: 2rem 4%;
+    }
+    section {
+        padding: 3rem 4%;
+    }
+}
+
+@media (max-width:768px) {
+    #Rectangle_1 {
+        display: block;
+    }
+    .Rectangle_1 .NS .Events .Instagram .Engagement .Venue a {
+        display: block;
+        background: #fff;
+        border-radius: .5rem;
+        color: var(--black);
+        margin: 1.5rem;
+        padding: 1rem 2rem;
+        font-size: 2.5rem;
+    }
+    .Events-Decor .row {
+        flex-flow: column;
+    }
+    .Events-Decor .row .divider {
+        display: none;
+    }
+    .Events-Decor .row .box-container:last-child .box {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+}
+
+@media (max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+}
